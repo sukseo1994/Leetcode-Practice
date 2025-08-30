@@ -9,6 +9,8 @@ class Solution:
         return [-1, -1]
     ''' 
     # Second Version
+    # also using dictioanries 
+    # adding more comments
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         idx_map = {}
         for i in range(len(nums)):
